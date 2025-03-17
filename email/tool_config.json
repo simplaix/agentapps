@@ -1,0 +1,6 @@
+{
+  "email": {
+    "client_tools": ["send_message", "reply_message"],
+    "server_tools": ["search_messages", "gmail_login"]
+  }
+}
