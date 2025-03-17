@@ -1,0 +1,6 @@
+{
+  "google": {
+    "client_tools": [],
+    "server_tools": ["login"]
+  }
+}
