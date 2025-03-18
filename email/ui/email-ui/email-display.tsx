@@ -23,21 +23,18 @@ import {
 
   DropdownMenu,
   DropdownMenuTrigger} from "@/components/ui/dropdown-menu"
-import { Label } from '@/components/ui/label';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
 } from '@/components/ui/popover';
 import { Separator } from '@/components/ui/separator';
-import { Switch } from '@/components/ui/switch';
-import { Textarea } from '@/components/ui/textarea';
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import { EmailResult } from '@/toolbox/tools/local/email/types/email';
+import { EmailResult } from '@/agentapps/tools/local/email/types/email';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
 interface MailDisplayProps {
   mail: EmailResult | null;

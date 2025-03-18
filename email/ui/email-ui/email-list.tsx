@@ -2,14 +2,14 @@
 
 import { Button } from '@/components/ui/button';
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area';
-import { EmailResult } from '@/toolbox/tools/local/email/types/email';
-import { useEmailStore } from '@/toolbox/stores/emailStore';
+import { EmailResult } from '@/agentapps/tools/local/email/types/email';
+import { useEmailStore } from '@/agentapps/stores/emailStore';
 import { UIContainer } from '@/components/base/ui-container';
 
 import { EmailCard } from './email-card';
 import { MailDisplay } from './email-display';
 import { cx } from 'class-variance-authority';
-import { useUiVisiableStore } from '@/toolbox/stores/uiVisiableStore';
+import { useUiVisiableStore } from '@/agentapps/stores/uiVisiableStore';
 import { ToolResult } from 'ai';
 
 const UITitle = 'Email Search Results';

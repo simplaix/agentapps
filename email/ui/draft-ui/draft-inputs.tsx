@@ -11,8 +11,8 @@ import { Label } from '@/components/ui/label';
 import { Separator } from '@/components/ui/separator';
 import { Textarea } from '@/components/ui/textarea';
 import { cn } from '@/lib/utils';
-import { DraftData } from '@/toolbox/tools/local/email/types/draft';
-import { useUiVisiableStore } from '@/toolbox/stores/uiVisiableStore';
+import { DraftData } from '@/agentapps/tools/local/email/types/draft';
+import { useUiVisiableStore } from '@/agentapps/stores/uiVisiableStore';
 import { UIContainer } from '@/components/base/ui-container';
 import { ToolInvocation } from 'ai';
 

@@ -2,7 +2,7 @@
 import { formatDistanceToNow } from 'date-fns/formatDistanceToNow';
 
 import { cn } from '@/lib/utils';
-import { EmailResult } from '@/toolbox/tools/local/email/types/email';
+import { EmailResult } from '@/agentapps/tools/local/email/types/email';
 import { Button } from '@/components/ui/button';
 import { Letter } from 'react-letter';
 interface EmailCardProps {

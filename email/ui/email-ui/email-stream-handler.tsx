@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 
-import { EmailResult } from '@/toolbox/tools/local/email/types/email';
+import { EmailResult } from '@/agentapps/tools/local/email/types/email';
 
 interface EmailStreamHandlerProps {
   streamingData: any;

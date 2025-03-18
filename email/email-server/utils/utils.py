@@ -66,8 +66,8 @@ def import_googleapiclient_resource_builder() -> build_resource:
 
 
 DEFAULT_SCOPES = ["https://mail.google.com/"]
-DEFAULT_CREDS_TOKEN_FILE = "/Users/hanyuan/Documents/Programs/simplaix.com/simplaix/toolbox/tools/local/google/google-server/token.json"  # TODO： read from db
-DEFAULT_CLIENT_SECRETS_FILE = "/Users/hanyuan/Documents/Programs/simplaix.com/simplaix/toolbox/tools/local/google/google-server/credentials.json"  # TODO： read from db
+DEFAULT_CREDS_TOKEN_FILE = os.path.expanduser("~/.simplaix/secrets/token.json")
+DEFAULT_CLIENT_SECRETS_FILE = os.path.expanduser("~/.simplaix/secrets/credentials.json")
 
 
 def get_gmail_credentials(
